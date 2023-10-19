@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalc</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="mainBlock">
+        <h1 class="сalcText">Калькулятор</h1>
+        <div class="slogBlock">
+            <input id="input1" value="" class="firstNum" type="number" />
+            <input id="input2" value="" class="secondNum" type="number" />
+        </div>
+        <div class="plusMinsus">
+            <button id="plus" class="plusButton">+</button>
+            <button id="minus" class="minusButton">-</button> 
+        </div>
+        <button id="submit" class="math">вычислить</button>
+        <div class="answerBlock">
+            <p id="answerNum" class="answerNum"></p>
+        </div>
+    </div>
+</body>
+
+</html>
